@@ -1,0 +1,103 @@
+.loginDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top:120px;
+    left:240px;
+    gap:20px;
+}
+.form h3{
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bold;
+    color:darkblue;
+    font-size: 40px;
+}
+.form h6{
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 12px;
+    color:lightgrey;
+}
+.head{
+    display: block;   
+}
+.text{
+    width: 300px;
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+.pass{
+    width: 300px;
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+.butt{
+    width:300px;
+    height: 40px;
+    background-color: darkblue;
+    color:white;
+    font-family:'Tiro Gurmukhi', serif; 
+    font-size: 25px;
+    border:none;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap:100px;  
+}
+.box a{
+    text-decoration: none;
+    color:black;
+    font-size:10px;
+}
+.check{
+    width:15px;
+    height: 15px;
+    
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+  }
+  .image{
+      display: flex;
+      justify-content: flex-end;
+      background-color: darkblue;
+      border:1px solid blue;
+      width: 50%;
+      height: 700px;
+      padding-top: 10px;
+  }
+  @media only screen and (max-width: 1100px) {
+      .image{
+          display: none;
+      }
+      .form{
+        
+        position: relative;
+        left:100px;
+        
+    }
+  }
+
+
